@@ -1,5 +1,7 @@
 body {
-  background:#F4F4F4;
+  background: url("/css/bg_img/imgheader.jpg");
+  background-size: 100% 329px;
+  background-repeat: no-repeat;
   font-family: "Arial";
   font-size:14px;
   color: #484848;

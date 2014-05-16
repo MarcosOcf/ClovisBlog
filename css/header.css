@@ -1,7 +1,5 @@
 .header {
-  
   height: 450px;
-
 }
 
 .header h1 {
@@ -22,11 +20,7 @@
   width:100px;
 }
 
-.header_img{
-  background: url("/css/bg_img/imgheader.jpg");
-  
-  height:329px;
-}
+
 
 .header_inside {
   margin: 0 auto;
