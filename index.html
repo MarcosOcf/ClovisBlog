@@ -16,18 +16,19 @@ Ao contrário da crença popular, Lipsum (Lorem Ipsum abreviado) não é simples
       <div class = "content_box">
         <li>
           <div class = "post_info">
-            <span class="post_date">{{post.date | date: "%b %-d, %Y" }}</span>
+            <span class="post_date"><h2>{{ post.day }} - {{post.date | date: "%b %-d, %Y" }}</h2></span>
           </div>
 
           <div class="post_general">
             
             <div class = "link_post">
-              <a class="post_link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>"
+              <a href="{{ post.url | prepend: site.baseurl }}"><h1>{{ post.title }}</h1></a>
             </div>
 
             <div class="post_content">    
-              <p>{{ post.content }}</p>
+              <h3><p>{{ post.excerpt }}</h3>
             </div>
+
 
           </div>
         </li>
@@ -36,5 +37,5 @@ Ao contrário da crença popular, Lipsum (Lorem Ipsum abreviado) não é simples
     <div class = "content_box" id = "carregar_mais">
     <p>CARREGAR MAIS</p>
     </div>
-  
+ 
 </div>

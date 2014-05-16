@@ -1,7 +1,10 @@
+
 body {
   background: url("/css/bg_img/imgheader.jpg");
-  background-size: 100% 329px;
+  background-size: 1920px 329px;
   background-repeat: no-repeat;
+  background-position: center top;
+  background-color: #F4F4F4;
   font-family: "Arial";
   font-size:14px;
   color: #484848;
@@ -59,9 +62,44 @@ h1 {
   width:1024px;
   height:210px;
   margin-top: 45px;
-  background: #F9FAFA;
-  box-shadow: 0px 2px px #E5E5E5;
+  background: #FAFAFA;
+  box-shadow: 0px 2px #E5E5E5;
   }
+
+.content_box:hover{
+  background: #FFFFFF;
+}
+.content_box:hover h1{
+  color:#3F2CFF;
+}
+.content_box:hover h2{
+  color:#3B3B3B;
+}
+.content_box:hover h3{
+  color:#808080;
+}
+
+.content_box h1{
+  font-family: "Proxima Nova";
+  font-size: 30px;
+  color:#525252;
+  width: auto;
+}
+.content_box h2{
+  font-size: 18px;
+  font-family: "DIN Condensed"; 
+  color:#919191;
+}
+.content_box h3{
+  font-size: 18px;
+  font-family: "Arial";
+  color:#909090;
+}
+.content_box h4{
+  color:#3F2CFF;
+  font-family: "Arial";
+  font-size: 18px;
+}
 #carregar_mais {
   height: 60px;
   text-decoration: none;
@@ -78,21 +116,39 @@ h1 {
 }
 
 .post_info{
-  margin-top: 45px;
+  padding-top: 45px;
   margin-left: 40px;
 }
+
 
 .post_general {
   margin-left: 40px;
   margin-top: 14px;
 }
 
-.post-content{
+.post_content{
   padding-top: 17px; 
   height:50px;
+  line-height: 29px;
 }
-
+.post_content a{
+  text-decoration: none;
+  font-size: 18px;
+  font-family: "Arial";
+  color:#909090;
+}
 
 .posts li{
   list-style-type: none;
+}
+
+.link_post{
+  width: 500px;
+  font-style: none;
+  font-variant: none;
+}
+
+.link_post a{
+  text-decoration: none;
+  width: auto;
 }
