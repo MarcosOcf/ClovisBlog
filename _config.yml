@@ -1,0 +1,10 @@
+# Site settings
+title: CLÓVIS MECÂNICO
+email: marcos.ocf01@gmail.com
+description: "ESTÁGIO DE DESENVOLVIMENTO"
+baseurl: ""
+url: "http://clovisblog.com"
+
+# Build settings
+markdown: kramdown
+permalink: pretty

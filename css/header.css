@@ -1,0 +1,77 @@
+.header {
+  
+  height: 450px;
+
+}
+
+.header h1 {
+  font-family: "DIN Condensed";
+  font-size:100px;
+  color: #4033FF;
+}
+
+.header h2 {
+ font-family:  "DIN Condensed";
+  font-size:20px;
+  color: black;
+}
+
+#description {
+  margin-left: 130px;
+  margin-top: 140px;
+  width:100px;
+}
+
+.header_img{
+  background: url("/css/bg_img/imgheader.jpg");
+  
+  height:329px;
+}
+
+.header_inside {
+  margin: 0 auto;
+  width: 1020px;
+  height: 214px;
+  padding-top: 233px;
+
+}
+
+.header_title{
+  margin-top: 5px;
+  float:left;
+  padding-left:50px;
+}
+
+#title {
+  padding-left: 30px;
+}
+
+.logo_gcom{
+  margin-top: 65px;
+  margin-left: 380px;
+  height: 100px;
+  width: 100px;
+  content:url("/css/img/gcom.jpg");
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

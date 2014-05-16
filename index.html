@@ -1,0 +1,40 @@
+---
+layout: default
+---
+
+  <div class = "info_colunas"> 
+      <div class="three_column"> Em design gráfico e editoração, Lorem ipsum é um texto utilizado para preencher o espaço de texto em publicações (jornais, revistas, e websites), com a finalidade de verificar o lay-out, tipografia e formatação antes de utilizar conteúdo real. Muitas vezes este texto também é utilizado em catálogos de tipografia para demonstrar textos e títulos escritos com as fontes.
+
+Lorem ipsum é um texto padrão em latim. Em documentos utilizados para testes, este tipo de texto é utilizado para evitar que as pessoas foquem a atenção no texto e se concentrem nos aspectos visuais. O lorem ipsum simula com razoável fidelidade um texto real, por possuir palavras de diversos tamanhos e sinais de pontuação, permitindo testar também a forma como o texto flui nas caixas e campos de formatação.
+
+Ao contrário da crença popular, Lipsum (Lorem Ipsum abreviado) não é simplesmente um texto qualquer com um monte de letras."</div>
+  </div>
+
+
+  <div class= "single_post">
+  {%for post in site.posts %}
+      <div class = "content_box">
+        <li>
+          <div class = "post_info">
+            <span class="post_date">{{post.date | date: "%b %-d, %Y" }}</span>
+          </div>
+
+          <div class="post_general">
+            
+            <div class = "link_post">
+              <a class="post_link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>"
+            </div>
+
+            <div class="post_content">    
+              <p>{{ post.content }}</p>
+            </div>
+
+          </div>
+        </li>
+      </div>
+  {% endfor %}
+    <div class = "content_box" id = "carregar_mais">
+    <p>CARREGAR MAIS</p>
+    </div>
+  
+</div>
