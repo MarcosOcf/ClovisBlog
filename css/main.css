@@ -1,24 +1,24 @@
 
 body {
-  background: url("/css/bg_img/imgheader.jpg");
-  background-size: 1920px 329px;
-  background-repeat: no-repeat;
-  background-position: center top;
   background-color: #F4F4F4;
   font-family: "Arial";
   font-size:14px;
   color: #484848;
-  height:2000px;
-
+  height:auto;
+  padding-bottom: 200px;
 }
+
 h1 {
   width: 160px;
   font-size: 70px;
 }
 
 .page_wrapper{
+  padding-top: 20px;
   width:1020px;
   margin: 0 auto;
+  z-index: 0;
+  position: relative;
 }
 
 .info_colunas {
@@ -26,7 +26,9 @@ h1 {
   height: 214px;
   width: 980px;
   line-height: 28px;
-  font-size: 15px;  
+  font-size: 15px; 
+  z-index: 1;
+  position: relative; 
 
 }
 
@@ -57,7 +59,9 @@ h1 {
   list-style-type: none;
   text-align: left;
 }
-
+.content{
+  z-index: 2;
+}
 .content_box {
   width:1024px;
   height:210px;
@@ -81,14 +85,16 @@ h1 {
 
 .content_box h1{
   font-family: "Proxima Nova";
-  font-size: 30px;
+  font-size: 34px;
   color:#525252;
-  width: auto;
+  width: 940px;
 }
 .content_box h2{
-  font-size: 18px;
+  font-size: 16px;
   font-family: "DIN Condensed"; 
   color:#919191;
+  text-transform: uppercase;
+  letter-spacing: 1px;
 }
 .content_box h3{
   font-size: 18px;
