@@ -5,6 +5,7 @@ day: Segunda Feira
 date: 2014-05-12 14:23:16
 categories: jekyll update
 description: Uma calculadora feita em ruby, que me custou o aprendizado da linguagem a partir do zero!
+highlighter: pygments
 ---
 
 
@@ -27,3 +28,12 @@ Mas, como lógica principal, o calculadora armazena valores pra no final somente
 ;)
 
 Mole, mole, não é.. mas valeu! haha XD
+
+Exemplo:
+
+{% highlight ruby %}
+def foo
+  puts 'foo'
+end
+{% endhighlight %}
+

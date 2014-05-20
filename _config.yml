@@ -8,3 +8,4 @@ url: "http://clovisblog.com"
 # Build settings
 markdown: kramdown
 permalink: pretty
+highlighter: pygments
