@@ -27,9 +27,26 @@ layout: default
     </div>
 
     <div class ="prox-ant-box">
+      
+
       <div class="ant-button">
         <div class="button-ant">
-          <a href="{{ site.url | prepend: site.baseurl }}"> Voltar </a>
+          <a href="{{ page.previous.url | prepend: site.baseurl }}"> Anterior </a>
+        </div>
+      </div> 
+
+      <div class="home-button">
+        <div class="button-home">
+          <a href="{{ site.url | prepend: site.baseurl }}"> Página inicial </a>
+        </div>
+      </div>
+     
+
+     
+
+      <div class="prox-button">
+        <div class="button-prox">
+          <a href="{{ page.next.url | prepend: site.baseurl }}"> Próxima </a>
         </div>
       </div>
     </div>
