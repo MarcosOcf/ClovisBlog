@@ -5,7 +5,6 @@ day: Segunda Feira
 date: 2014-05-12 14:23:16
 categories: jekyll update
 description: Uma calculadora feita em ruby, que me custou o aprendizado da linguagem a partir do zero!
-highlighter: pygments
 ---
 
 
