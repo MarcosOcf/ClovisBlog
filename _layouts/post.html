@@ -29,9 +29,13 @@ layout: default
     <div class ="prox-ant-box">
 
       <div class="ant-button">
-        <div class="button-ant">
-          <a href="{{ page.previous.url | prepend: site.baseurl }}"> Anterior </a>
+        
+        <div class="button-ant {% if page.previous != nil %}enabled{%else%}disabled{% endif %}">
+
+          <a {%if page.previous != nil %}href="{{ page.previous.url | prepend: site.baseurl }}"{%endif%} class = "previous_post"> Anterior </a>
+
         </div>
+        
       </div> 
 
       <div class="home-button">
@@ -39,12 +43,11 @@ layout: default
           <a href="{{ site.url | prepend: site.baseurl }}"> Página inicial </a>
         </div>
       </div>
-     
-      <div class="prox-button">
-        <div class="button-prox">
-          <a href="{{ page.next.url | prepend: site.baseurl }}"> Próxima </a>
-        </div>
+           
+      <div class="prox-button {% if page.next != nil %}enabled{%else%}disabled{% endif %}">
+        <a {%if page.next != nil %}href="{{ page.next.url | prepend: site.baseurl }}"{%endif%} class ="next_post" > Próxima </a>
       </div>
+      
     </div>
     
   </div>

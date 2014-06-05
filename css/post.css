@@ -102,14 +102,21 @@
   font-size: 22px;
   color:gray;
   margin:auto auto;
-
+  height: 60px;
 }
 
+.previous_post{
+  text-decoration: none;
+  color:gray;
+  margin-left: 57px;
+}
+/*
 .button-ant a{
   text-decoration: none;
   color:gray;
   margin-left: 57px;
 }
+*/
 
 .home-button{
   font-size: 22px;
@@ -123,11 +130,11 @@
   margin-top: -60px;
 }
 
+
 .button-home{
   font-family: "Próxima Nova";
   font-size:22px;
   color:gray;
-
 }
 
 .button-home a{
@@ -153,34 +160,55 @@
 
 }
 
+.next_post{
+  text-decoration: none;
+  color:gray;
+  margin-left: 54px;
+}
+/*
 .button-prox a{
   text-decoration: none;
   color:gray;
   margin-left: 54px;
 }
+*/
+.button-ant.enabled:hover {
+  background: white;
 
-.ant-button:hover{
-  background:white;
+}
+
+.button-ant.disabled{
+  background-color: #e6e6e6;
+}
+
+/*
+.prox-button:hover{
+  background: white;
+}
+*/
+.prox-button.disabled {
+  background-color: #e6e6e6;
+}
+
+.prox-button.enabled:hover {
+  background-color: white;
 }
 
 .home-button:hover{
   background:white;
 }
-
-.prox-button:hover{
-  background:white;
-}
-
-.button-prox:hover a{
-  color:blue;
-}
+/*
 
 .button-home:hover a{
   color:blue;
+.button-prox:hover a{
+  color:blue;
+}
 }
 
 .button-ant:hover a{
   color:blue;
 }
+/*
 
 

@@ -1,9 +1,9 @@
 # Site settings
-title: CLÓVIS MECÂNICO
+title: Clóvis Mecânico
 email: marcos.ocf01@gmail.com
 description: "ESTÁGIO DE DESENVOLVIMENTO"
 baseurl: ""
-url: "http://clovisblog.com"
+url: "http://marcosocf.com"
 
 # Build settings
 markdown: kramdown
