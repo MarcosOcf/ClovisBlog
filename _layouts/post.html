@@ -20,6 +20,7 @@ layout: default
         </div>
       </div>
 
+
       <div class "post-content2" id="post_cont">
         {{ content }}
       </div>
@@ -32,7 +33,9 @@ layout: default
         
         <div class="button-ant {% if page.previous != nil %}enabled{%else%}disabled{% endif %}">
 
-          <a {%if page.previous != nil %}href="{{ page.previous.url | prepend: site.baseurl }}"{%endif%} class = "previous_post"> Anterior </a>
+          <a {%if page.previous != nil %}href="{{ page.previous.url | prepend: site.baseurl }}"{%endif%} > 
+            <p class = "previous_post">Anterior
+          </a>
 
         </div>
         
@@ -43,9 +46,12 @@ layout: default
           <a href="{{ site.url | prepend: site.baseurl }}"> Página inicial </a>
         </div>
       </div>
-           
+      
+      
       <div class="prox-button {% if page.next != nil %}enabled{%else%}disabled{% endif %}">
-        <a {%if page.next != nil %}href="{{ page.next.url | prepend: site.baseurl }}"{%endif%} class ="next_post" > Próxima </a>
+        <a {%if page.next != nil %}href="{{ page.next.url | prepend: site.baseurl }}"{%endif%} >
+         <p class ="next_post">Próxima 
+        </a>
       </div>
       
     </div>

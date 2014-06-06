@@ -12,7 +12,8 @@
   height:auto;
   max-width: 1020px;
   font-family: "Próxima nova";
-  
+  text-transform: uppercase;
+  line-height: 88px;
 }
 
 .post-date-box{
@@ -47,6 +48,7 @@
   font-size: 18px;
   color:#919191;
   font-family: "Din Condensed";
+  text-transform: uppercase;
 }
 
 #post_cont h1{
@@ -95,6 +97,11 @@
   margin-right: 20px;
   height:60px;
   width: 200px;
+  color: gray;
+ }
+
+ .ant-button a{
+  color: gray;
  }
 
 .button-ant{
@@ -160,20 +167,20 @@
 
 }
 
+.next_post a{
+  height: 60px;
+  width: 200px;  
+}
+
 .next_post{
   text-decoration: none;
   color:gray;
-  margin-left: 54px;
+  margin-left: 63px;
 }
-/*
-.button-prox a{
-  text-decoration: none;
-  color:gray;
-  margin-left: 54px;
-}
-*/
+
 .button-ant.enabled:hover {
   background: white;
+  color: gray;
 
 }
 
@@ -181,11 +188,26 @@
   background-color: #e6e6e6;
 }
 
-/*
-.prox-button:hover{
-  background: white;
+.button-ant.enabled a{
+  position: absolute;
+  width: 200px;
+  height: 60px;
+  z-index: 10;
+  text-decoration: none;
+  margin-left: 0px;
 }
-*/
+
+
+.prox-button.enabled a{
+  position: absolute;
+  width: 200px;
+  height: 60px;
+  z-index: 10;
+  text-decoration: none;
+  margin-left: 0px;
+  color: gray;
+}
+
 .prox-button.disabled {
   background-color: #e6e6e6;
 }
@@ -195,20 +217,7 @@
 }
 
 .home-button:hover{
-  background:white;
+  background: white;
 }
-/*
-
-.button-home:hover a{
-  color:blue;
-.button-prox:hover a{
-  color:blue;
-}
-}
-
-.button-ant:hover a{
-  color:blue;
-}
-/*
 
 

@@ -14,23 +14,25 @@ Ao contrário da crença popular, Lipsum (Lorem Ipsum abreviado) não é simples
   <div class= "single_post">
   {%for post in site.posts %}
       <div class = "content_box">
-        <li>
-          <div class = "post_info">
-            <span class="post_date"><h2>{{ post.day }} - {{post.date | date: "%b %-d, %Y" }}</h2></span>
-          </div>
-
-          <div class="post_general">
-            
-            <div class = "link_post">
-              <a href="{{ post.url | prepend: site.baseurl }}"><h1>{{ post.title }}</h1></a>
+        <a href="{{ post.url | prepend: site.baseurl }}">
+          
+            <div class = "post_info">
+              <span class="post_date"><h2>{{ post.day }} - {{post.date | date: "%b %-d, %Y" }}</h2></span>
             </div>
 
-            <div class="post_content">    
-              <h3><p>{{ post.description }}</h3>
-            </div>
+            <div class="post_general">
+              
+              <div class = "link_post">
+                <h1>{{ post.title }}</h1>
+              </div>
 
-          </div>
-        </li>
+              <div class="post_content">    
+                <h3><p>{{ post.description }}</h3>
+              </div>
+
+            </div>
+          
+          </a>
       </div>
   {% endfor %}
 
