@@ -142,12 +142,21 @@
   font-family: "Próxima Nova";
   font-size:22px;
   color:gray;
+  width: 200px;
+  height: 60px;
+}
+
+.home_bt {
+
 }
 
 .button-home a{
   text-decoration: none;
   color:gray;
-  margin-left: 33px;
+  
+  width: 200px;
+  height: 60px;
+  position: absolute;
 }
 
 .prox-button{
@@ -167,6 +176,10 @@
 
 }
 
+.home_bt{
+  margin-left: 38px;
+}
+
 .next_post a{
   height: 60px;
   width: 200px;  
@@ -175,7 +188,7 @@
 .next_post{
   text-decoration: none;
   color:gray;
-  margin-left: 63px;
+  margin-left: 60px;
 }
 
 .button-ant.enabled:hover {
